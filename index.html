@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EventHub v2.0 - Ticket Booking</title>
+    <style>
+      /* Global CSS Overrides to kill white boxes forever */
+      .event-poster-container {
+        background-color: #1a1a2e !important; /* Force deep blue */
+        background-image: linear-gradient(135deg, #6366f1, #a855f7) !important; /* Force vibrant default */
+      }
+      .event-poster-img {
+        display: none !important; /* Hard-disable the <img> tag globally if it exists */
+      }
+      .event-poster-symbol-wrapper {
+        display: flex !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
